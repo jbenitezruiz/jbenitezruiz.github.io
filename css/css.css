@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+header, footer{
+  padding: 1em;
+  color: white;
+  background: #14213d;
+}
+
+footer {
+  font-size: 0.8em;
+  padding: 2em;
+}
+
+#pabajo{
+  padding-top: 4.5em;
+}
+
+ul {
+  width: 70%;
+  background: white;
+  padding: 12em;
+  margin: 0 auto;
+  list-style-type: none;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+  gap: 1.5em;
+}
+
+li {
+  margin: 1em 0;
+}
+
+li p a {
+  text-decoration: none;
+  color: #1919ff;
+}
+
+li p{
+  text-align: center;
+  font-size: 1em;
+}
